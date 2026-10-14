@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-labelledby="title desc">
+<title id="title">Current focus: ServiceHub, Python, and AI fundamentals</title>
+<desc id="desc">An animated activity strip with three focus areas and softly pulsing indicators.</desc>
+<defs><linearGradient id="bg"><stop stop-color="#0c1726"/><stop offset="1" stop-color="#131b30"/></linearGradient></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}</style>
+<rect x="1" y="1" width="1198" height="108" rx="14" fill="url(#bg)" stroke="#29384e"/>
+<path d="M404 23V88M806 23V88" stroke="#29384e"/>
+<g><circle class="pulse" cx="29" cy="34" r="4" fill="#22d3ee"/><text x="44" y="38" font-size="11" font-weight="700" letter-spacing="2" fill="#75dcee">BUILDING</text><text x="27" y="76" font-size="25" font-weight="700" fill="#edf5ff">ServiceHub</text><text x="194" y="76" font-size="14" fill="#92a6bd">Local services platform</text></g>
+<g><circle class="pulse" style="animation-delay:1s" cx="434" cy="34" r="4" fill="#a78bfa"/><text x="449" y="38" font-size="11" font-weight="700" letter-spacing="2" fill="#b7a5f5">PRACTICING</text><text x="432" y="76" font-size="25" font-weight="700" fill="#edf5ff">Python</text><text x="545" y="76" font-size="14" fill="#92a6bd">Flask · APIs · Problem-solving</text></g>
+<g><circle class="pulse" style="animation-delay:2s" cx="837" cy="34" r="4" fill="#38bdf8"/><text x="852" y="38" font-size="11" font-weight="700" letter-spacing="2" fill="#8acbf7">EXPLORING</text><text x="834" y="76" font-size="25" font-weight="700" fill="#edf5ff">AI</text><text x="880" y="76" font-size="14" fill="#92a6bd">Agents · Search · Applications</text></g>
+</svg>

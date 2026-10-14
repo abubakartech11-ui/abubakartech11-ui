@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Abubakar — AI student and Python developer</title>
+<desc id="desc">An animated professional banner featuring a shimmering name, rotating AI network, travelling signals, and a typewriter-style role line.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f1d"/><stop offset=".55" stop-color="#102235"/><stop offset="1" stop-color="#131b35"/></linearGradient>
+  <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="650" y2="0">
+    <stop stop-color="#f8fafc"/><stop offset=".42" stop-color="#f8fafc"/><stop offset=".55" stop-color="#67e8f9"/><stop offset=".7" stop-color="#c4b5fd"/><stop offset="1" stop-color="#f8fafc"/>
+    <animate attributeName="x1" values="-580;60;-580" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="50;690;50" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <radialGradient id="cyanHalo"><stop stop-color="#22d3ee" stop-opacity=".17"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <radialGradient id="purpleHalo"><stop stop-color="#a78bfa" stop-opacity=".14"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <clipPath id="bounds"><rect width="1200" height="380" rx="22"/></clipPath>
+  <clipPath id="typing"><rect x="63" y="217" width="428" height="33">
+    <animate attributeName="width" values="0;0;428;428;0" keyTimes="0;.04;.34;.85;1" dur="8s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <path id="orbit" d="M 956,46 A 125,125 0 1,1 955.9,46"/>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif}
+    .fine{font-size:12px;letter-spacing:2.5px;font-weight:700}
+    .signal{stroke-dasharray:9 150;animation:signal 5s linear infinite}
+    .grid{stroke:#66809a;stroke-opacity:.07;stroke-width:1}
+    .caret{animation:blink 1s steps(2,end) infinite}
+    .float{animation:float 7s ease-in-out infinite}
+    @keyframes signal{to{stroke-dashoffset:-318}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes float{50%{transform:translateY(-6px)}}
+    @media(prefers-reduced-motion:reduce){.signal,.caret,.float{animation:none}}
+  </style>
+</defs>
+<g clip-path="url(#bounds)">
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <g class="grid"><path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M80 0V380M160 0V380M240 0V380M320 0V380M400 0V380M480 0V380M560 0V380M640 0V380M720 0V380M800 0V380M880 0V380M960 0V380M1040 0V380M1120 0V380"/></g>
+  <circle cx="975" cy="182" r="245" fill="url(#cyanHalo)"><animate attributeName="cx" values="975;1030;975" dur="12s" repeatCount="indefinite"/></circle>
+  <circle cx="660" cy="354" r="230" fill="url(#purpleHalo)"><animate attributeName="cx" values="660;760;660" dur="14s" repeatCount="indefinite"/></circle>
+  <path d="M64 65H106" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+  <text x="121" y="69" fill="#a9c6d6" class="fine">LEARN. BUILD. IMPROVE.</text>
+  <text x="58" y="163" fill="url(#name)" font-size="76" font-weight="700" letter-spacing="-2">Abubakar</text>
+  <text x="63" y="204" fill="#c4d0df" font-size="23">BS Artificial Intelligence Student</text>
+  <g clip-path="url(#typing)">
+    <text x="63" y="241" fill="#67e8f9" font-size="22" font-weight="700" textLength="420" lengthAdjust="spacing">Python Developer · Building ServiceHub</text>
+  </g>
+  <rect class="caret" x="491" y="221" width="2" height="23" fill="#67e8f9">
+    <animate attributeName="x" values="63;63;491;491;63" keyTimes="0;.04;.34;.85;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="64" y="287" fill="#849bb0" font-size="15">Turning ideas into practical applications.</text>
+  <rect x="63" y="318" width="93" height="27" rx="13.5" fill="#11313d" stroke="#225365"/>
+  <text x="109" y="336" fill="#9ceafb" text-anchor="middle" font-size="12" font-weight="700">PYTHON</text>
+  <rect x="165" y="318" width="83" height="27" rx="13.5" fill="#15303c" stroke="#294759"/>
+  <text x="206" y="336" fill="#cbd5e1" text-anchor="middle" font-size="12" font-weight="700">FLASK</text>
+  <rect x="257" y="318" width="83" height="27" rx="13.5" fill="#1d263e" stroke="#3c3c61"/>
+  <text x="298" y="336" fill="#c4b5fd" text-anchor="middle" font-size="12" font-weight="700">SQLITE</text>
+  <g class="float">
+    <circle cx="956" cy="171" r="145" fill="none" stroke="#5c7c94" stroke-opacity=".19"/>
+    <circle cx="956" cy="171" r="125" fill="none" stroke="#67e8f9" stroke-opacity=".33" stroke-dasharray="4 12">
+      <animateTransform attributeName="transform" type="rotate" from="0 956 171" to="360 956 171" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <g stroke="#368ba2" stroke-opacity=".47" fill="none" stroke-width="1.3">
+      <path d="M956 171L867 95L1029 72L1081 194L974 279L841 229Z"/>
+      <path d="M956 171L1029 72M956 171L1081 194M956 171L974 279M956 171L841 229M867 95L974 279M1029 72L841 229"/>
+    </g>
+    <g fill="none" stroke="#67e8f9" stroke-width="2" stroke-opacity=".85">
+      <path class="signal" d="M867 95L956 171L1081 194"/>
+      <path class="signal" style="animation-delay:-2.5s" d="M1029 72L956 171L841 229"/>
+      <path class="signal" style="animation-delay:-1.2s" d="M974 279L956 171L867 95"/>
+    </g>
+    <g fill="#102233" stroke="#67e8f9" stroke-width="1.7">
+      <circle cx="867" cy="95" r="6"/><circle cx="1029" cy="72" r="6"/><circle cx="1081" cy="194" r="6"/><circle cx="974" cy="279" r="6"/><circle cx="841" cy="229" r="6"/>
+      <circle cx="956" cy="171" r="45"/>
+    </g>
+    <circle cx="956" cy="171" r="45" fill="none" stroke="#67e8f9" stroke-opacity=".5">
+      <animate attributeName="r" values="45;65;45" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".6;0;.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="956" y="182" text-anchor="middle" fill="#e0f7ff" font-size="29" font-weight="700">AI</text>
+    <circle r="4" fill="#67e8f9"><animateMotion dur="18s" repeatCount="indefinite" path="M 956,46 A 125,125 0 1,1 955.9,46"/></circle>
+  </g>
+  <text x="956" y="345" text-anchor="middle" fill="#8194af" font-size="12" letter-spacing="2">CURIOSITY → PRACTICE → PROGRESS</text>
+  <path d="M0 379H1200" stroke="url(#accent)" stroke-width="2"/>
+</g>
+<rect x="1" y="1" width="1198" height="378" rx="21" fill="none" stroke="#28394e"/>
+</svg>
